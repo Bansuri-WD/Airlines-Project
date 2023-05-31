@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+span{
+    color: rgb(76, 158, 235);
+}
+/* ---------------------header--------------------- */
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(22, 22, 22);
+    padding: 20px;
+}
+.r-menu a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+    font-size: 20px
+}
+.r-menu{
+    display: flex;
+    align-items: center;
+    /* padding-top: 20px; */
+}
+.l-logo{
+    color: rgb(146, 142, 142);
+    padding-left: 60px;
+    font-size: 30px;
+}
+.in-travel{
+    font-size: 15px;
+    color: rgb(146, 142, 142);
+}
+.banner img{
+    width: 100%;
+    height: 70%;
+}
+.comfort{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    font-size: 50px;
+    color: #eee;
+    font-family:'Times New Roman', Times, serif;
+}
+.guaranteed{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-size: 50px;
+    color: #eee;
+}
+.lines{
+    position: absolute;
+    top: 800px;
+    color: #eee;
+}
+.left-form{
+    display: flex;
+    /* flex-direction: column; */
+    width: 50%;
+    background-color: #eee;
+    padding-top: 20px;
+    /* align-items: center; */
+}
+.form{
+    width: 80%;
+    background-color: #eee;
+    font-size: 20px;
+    padding: 20px;
+    /* padding: 20px; */
+
+}
+.form h2{
+    text-align: center;
+}
+.container{
+    background-color: #eee;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
+.radio-btns input{
+   margin: 5px;  
+
+}
+.radio-btns{
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+h2{
+    /* padding: 25px; */
+}
+.b-details{
+    padding: 10px;
+}
+/* ::placeholder{
+    font-size: 12px;
+} */
+.b-details input{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: none;
+    border-color: #eee;
+}
+.passenger{
+    display: flex;
+    width: 100%;
+}
+.passenger .pas-in{
+    width: 90%;
+}
+.passenger label{
+    width: 100%;
+    display: block;
+}
+.passenger a{
+    color: white;
+    text-decoration: none;
+    background-color: lightblue;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+/* .go-btn{
+    background-color: rgb(57, 142, 240);
+    font-size: 20px;
+    width: 30%;
+
+}
+.para p{
+    font-size: 20px;
+    color: rgba(32, 32, 247, 0.856);
+} */
+.leaving-f input{
+    margin: 10px 0px;
+}
+.news{
+    padding: 20px;
+}
+.right-side{
+
+    width: 50%;
+    /* background-color: #eee; */
+    margin-top: 20px;
+    padding: 20px;
+}
+.welcome .blue{
+    color: rgb(10, 142, 194);
+    font-size: 20px;
+}
+.aircraft .read{
+    margin: 20px 0px;
+    color: white;
+    background-color: rgb(17, 17, 17);
+    box-shadow: none;
+    padding: 5px;
+    border-radius: 3px;
+    display: block ;
+    width: fit-content;
+}
+/* .fleet{
+    color: white;
+    background-color: rgb(10, 74, 192);
+    outline: none;
+    box-shadow: none;
+    padding: 5px;
+    border-radius: 3px;
+    border-color: rgb(10, 74, 192);
+    
+} */
+.aircraft{
+    padding-top: 20px ;
+    /* margin: 20px 0px; */
+    font-size: 20px;
+}
+/* .charters{
+    font-size: 20px;
+    padding-top: 20px;
+} */
+p{
+    padding-top: 10px;
+}
+.leaving-f input {
+    margin: 10px 0px;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+/*--------------- other content css------------- */
+.other-content{
+
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    background-color: white;
+    /* display: flex; */
+}
+.s-heading{
+    font-size: 3rem;
+    font-family: 'Prata';
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: 0.02em;
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+}
+
+.cnt{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(81,80,80,1);
+    font-family: 'Muli';
+    font-weight: normal;
+    font-size: 20px;
+    width: 100%;
+    margin: 2% 0% 5% 0%;
+}
+.cnt img{
+    width: 100%;
+    height: inherit;
+}
+.private{
+    font-size: 20px;
+    color: black;
+}
+/* .cnt img{
+    width: 40%;
+} */
+.cnt1{
+    margin:50px;
+}
+
+
+.special-heading{
+    position: relative;
+    /* margin-top: 50px; */
+    background-color: #eee;
+    padding-top: 60px;
+    font-size: 3rem;
+    font-family: 'Prata';
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.special-heading span{
+    position: absolute;
+    height: 2px;
+    width: 200px;
+    background-color: black;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    bottom: -19px; 
+}
+/* -------------another content 2--------------- */
+
+.other-content2{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 8% 2% 5% 2%;
+    background-color: #eee;
+    background-image: url("image/pl-bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    display: flex; 
+    justify-content: space-between; 
+    background-origin: content-box;
+}
+.box1{
+    width: 30%;
+    /* padding-top: 300px; */
+    font-family: 'Maven Pro';
+    line-height: 2rem;
+    font-size: 20px;
+    align-self: flex-end;
+    color: rgba(81,80,80,1);
+}
+.other-content2 .box1 .para{
+    padding: 14px 0px !important;
+}
+
+/*---------------- footer --------------- */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(22, 22, 22);
+    color: rgb(250, 248, 248);
+    font-size: 20px;
+}
+.left-side{
+}
+.left-side a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(250, 248, 248);
+
+}
+
+
+/* media query */
+@media screen and (max-width:959px) {
+    .header{
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .left-form {
+        width: 100%;
+        justify-content: center;
+    }
+    .container .right-side  {
+        padding: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    /* .other-content{
+        flex-direction: column;
+
+    } */
+    .other-content .cnt{
+        flex-direction: column-reverse;
+        width: 100%;
+        justify-content: center;
+
+    }
+    .other-content2{
+        flex-direction: column;
+
+    }
+    .other-content2 .box1{
+        justify-content: center;
+        width: 100%;
+        
+    }
+    .other-content2{
+        background-size: 50%;
+    }
+
+}
